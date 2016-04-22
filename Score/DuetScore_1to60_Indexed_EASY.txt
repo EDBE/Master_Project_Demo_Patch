@@ -1,0 +1,2093 @@
+BPM 95
+
+antescofo::analysis 4096 512
+
+; start
+; HAVE TO DEAL WITH 500ms Latency of Robot
+
+; ----------- measure 1 --- beat 0 --- time signature 4/4
+
+CHORD (C4 F4) 4 measure1
+
+group 1to18 @target:={e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11,e12,e14,e15,e16,e17,e18,e19,e20,e101,e102,e103,e104}{
+
+; ----------- measure 1 --- beat 0 --- time signature 4/4
+
+;	NOTE 0 8/9 measure1
+
+;	NOTE F#2 4/9
+	(60000/95 * 4.5 - 500)ms marimba 0 (1/2)
+
+;	NOTE C3 4/9
+	(1/2) marimba 1 (1/2)
+
+;	NOTE A#2 4/9
+	(1/2) marimba 2 (1/2)
+
+;	NOTE F3 4/9
+	(1/2) marimba 3 (1/2)
+
+;	NOTE F#3 4/9
+	(1/2) marimba 4 (1/2)
+
+;	NOTE C4 4/9
+	(1/2) marimba 5 (1/2)
+
+;	NOTE A#3 4/9
+	(1/2) marimba 6 (1/2)
+
+; ----------- measure 2 --- beat 4 --- time signature 4/4
+
+;	NOTE F4 2/5 measure2
+	(4/9) marimba 7 (2/5)
+
+;	NOTE F#4 2/5
+	(2/5) marimba 8 (2/5)
+
+;	NOTE C5 2/5
+	(2/5) marimba 9 (2/5)
+
+;	NOTE A#4 2/5
+	(2/5) marimba 10 (2/5)
+
+;	NOTE F5 2/5
+	(2/5) marimba 11 (2/5)
+
+;	NOTE F#5 2/5
+	(2/5) marimba 12 (2/5)
+
+;	NOTE C6 2/5
+	(2/5) marimba 13 (2/5)
+
+;	NOTE A#5 2/5
+	(2/5) marimba 14 (2/5)
+
+;	NOTE C#6 2/5
+	(2/5) marimba 15 (2/5)
+
+;	NOTE C#6 2/5
+	(2/5) marimba 16 (2/5)
+
+; ----------- measure 3 --- beat 8 --- time signature 4/4
+
+;	NOTE C#6 1 measure3
+	(2/5) marimba 17 1
+
+;	NOTE C#6 1
+	1 marimba 18 1
+
+;	NOTE C#6 1
+	1 marimba 19 1
+
+;	NOTE C#6 1
+	1 marimba 20 1
+
+; ----------- measure 4 --- beat 12 --- time signature 4/4
+
+;	NOTE C#6 1 measure4
+	1 marimba 21 1
+
+;	NOTE C#6 1
+	1 marimba 22 1
+
+;	NOTE C#6 1
+	1 marimba 23 1
+
+;	NOTE C#6 1
+	1 marimba 24 1
+
+; ----------- measure 5 --- beat 16 --- time signature 4/4
+
+;	NOTE C6 1/2 measure5
+	1 marimba 25 (1/2)
+
+;	NOTE A#5 1/2
+	(1/2) marimba 26 (1/2)
+
+;	NOTE C#6 1/2
+	(1/2) marimba 27 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 28 (1/2)
+
+;	NOTE A#5 1/2
+	(1/2) marimba 29 (1/2)
+
+;	NOTE C#6 1/2
+	(1/2) marimba 30 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 31 (1/2)
+
+;	NOTE A#5 1/2
+	(1/2) marimba 32 (1/2)
+
+; ----------- measure 6 --- beat 20 --- time signature 4/4
+
+;	NOTE C#6 1/2 measure6
+	(1/2) marimba 33 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 34 (1/2)
+
+;	NOTE A#5 1/2
+	(1/2) marimba 35 (1/2)
+
+;	NOTE C#6 1/2
+	(1/2) marimba 36 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 37 (1/2)
+
+;	NOTE A#5 1/2
+	(1/2) marimba 38 (1/2)
+
+;	NOTE C#6 1/2
+	(1/2) marimba 39 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 40 (1/2)
+
+
+; ----------- measure 7 --- beat 24 --- time signature 4/4
+
+;	NOTE A#5 1/2 measure7
+	(1/2) marimba 41 (1/2)
+
+;	NOTE C#6 1/2
+	(1/2) marimba 42 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 43 (1/2)
+
+;	NOTE G#5 1/2
+	(1/2) marimba 44 (1/2)
+
+;	NOTE D#6 1/2
+	(1/2) marimba 45 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 46 (1/2)
+
+;	NOTE G#5 1/2
+	(1/2) marimba 47 (1/2)
+
+;	NOTE D#6 1/2
+	(1/2) marimba 48 (1/2)
+
+
+; ----------- measure 8 --- beat 28 --- time signature 4/4
+
+;	NOTE C6 1/2 measure8
+	(1/2) marimba 49 (1/2)
+
+;	NOTE G#5 1/2
+	(1/2) marimba 50 (1/2)
+
+;	NOTE D#6 1/2
+	(1/2) marimba 51 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 52 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 53 (1/2)
+
+;	NOTE F6 1/2
+	(1/2) marimba 54 (1/2)
+
+;	NOTE F5 1/2
+	(1/2) marimba 55 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 56 (1/2)
+
+; ----------- measure 9 --- beat 32 --- time signature 4/4
+
+;	NOTE F6 1/2 measure9
+	(1/2) marimba 57 (1/2)
+
+;	NOTE F5 1/2
+	(1/2) marimba 58 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 59 (1/2)
+
+;	NOTE F6 1/2
+	(1/2) marimba 60 (1/2)
+
+;	NOTE F5 1/2
+	(1/2) marimba 61 (1/2)
+
+;	NOTE C6 1/2
+	(1/2) marimba 62 (1/2)
+
+;	NOTE F6 1/2
+	(1/2) marimba 63 (1/2)
+
+;	NOTE F5 1/2
+	(1/2) marimba 64 (1/2)
+
+
+; ----------- measure 10 --- beat 36 --- time signature 4/4
+
+;	NOTE F5 1 measure10
+	1/2 marimba 65 1
+
+;	NOTE F#5 1
+	1 marimba 66 1
+
+;	NOTE A#5 1
+	1 marimba 67 1
+
+;	NOTE F5 1
+	1 marimba 68 1
+
+; ----------- measure 11 --- beat 40 --- time signature 4/4
+
+;	NOTE F5 1/2 measure11
+	1 marimba 69 (1/2)
+
+;	NOTE D#5 1/2
+	(1/2) marimba 70 (1/2)
+
+;	NOTE C#5 1/2
+	(1/2) marimba 71 (1/2)
+
+;	NOTE C5 1/2
+	(1/2) marimba 72 (1/2)
+
+;	NOTE A#4 1/2
+	(1/2) marimba 73 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 74 (1/2)
+
+;	NOTE F4 1/2
+	(1/2) marimba 75 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 76 (1/2)
+
+
+; ----------- measure 12 --- beat 44 --- time signature 4/4
+
+;	NOTE F4 1/2 measure12
+	(1/2) marimba 77 (1/2)
+
+;	NOTE D#4 1/2
+	(1/2) marimba 78 (1/2)
+
+;	NOTE C#4 1/2
+	(1/2) marimba 79 (1/2)
+
+;	NOTE C4 1/2
+	(1/2) marimba 80 (1/2)
+
+;	NOTE A#3 1/2
+	(1/2) marimba 81 (1/2)
+
+;	NOTE F#3 1/2
+	(1/2) marimba 82 (1/2)
+
+;	NOTE F3 1/2
+	(1/2) marimba 83 (1/2)
+
+;	NOTE F#3 1/2
+	(1/2) marimba 84 (1/2)
+
+
+; ----------- measure 13 --- beat 48 --- time signature 4/4
+
+;	NOTE F3 1/2 measure13
+	(1/2) marimba 85 (1/2)
+
+;	NOTE D#3 1/2
+	(1/2) marimba 86 (1/2)
+
+;	NOTE C#3 1/2
+	(1/2) marimba 87 (1/2)
+
+;	NOTE C3 1/2
+	(1/2) marimba 88 (1/2)
+
+;	NOTE A#2 1/2
+	(1/2) marimba 89 (1/2)
+
+;	NOTE G#2 1/2
+	(1/2) marimba 90 (1/2)
+
+;	NOTE F#2 1/2
+	(1/2) marimba 91 (1/2)
+
+;	NOTE F2 1/2
+	(1/2) marimba 92 (1/2)
+
+
+; ----------- measure 14 --- beat 52 --- time signature 4/4
+
+;	NOTE F#2 3/2 measure14
+	(1/2) marimba 93 (3/2)
+
+;	NOTE G#2 1/2
+	(3/2) marimba 94 (1/2)
+
+;	NOTE G#2 1
+	(1/2) marimba 95 1
+
+;	NOTE A#2 1/2
+	1 marimba 96 (1/2)
+
+;	NOTE C3 1/2
+	(1/2) marimba 97 (1/2)
+
+; ----------- measure 15 --- beat 56 --- time signature 4/4
+
+;	NOTE F3 3/2 measure15
+	(1/2) marimba 98 (3/2)
+
+;	NOTE D#3 1/2
+	(3/2) marimba 99 (1/2)
+
+;	NOTE D#3 1
+	(1/2) marimba 100 1
+
+;	NOTE C#3 1/4
+	1 marimba 101 (1/4)
+
+;	NOTE C3 1/4
+	(1/4) marimba 102 (1/4)
+
+;	NOTE A#2 1/2
+	(1/4) marimba 103 (1/2)
+
+; ----------- measure 16 --- beat 60 --- time signature 4/4
+
+;	NOTE G#2 1/2 measure16
+	(1/2) marimba 104 (1/2)
+
+;	NOTE A#2 1/2
+	(1/2) marimba 105 (1/2)
+
+;	NOTE 0 1/2
+	(1/2) marimba 0 (1/2)
+
+;	NOTE C3 1/2
+	(1/2) marimba 106 (1/2)
+
+;	NOTE C#3 1
+	(1/2) marimba 107 (1/1)
+
+;	NOTE D#3 1/2
+	(1/1) marimba 108 (1/2)
+
+;	NOTE F3 1/4
+	(1/2) marimba 109 (1/4)
+
+;	NOTE F3 1/4
+	(1/4) marimba 110 (1/4)
+
+; ----------- measure 17 --- beat 64 --- time signature 4/4
+
+;	NOTE 0 1/4 measure17
+	(1/4) marimba 0 (1/4)
+
+;	NOTE F4 1/2
+	(1/4) marimba 111 (1/2)
+
+;	NOTE F4 1/4
+	(1/2) marimba 112 (1/4)
+
+;	NOTE F4 1/2
+	(1/4) marimba 113 (1/2)
+
+;	NOTE F4 1/2
+	(1/2) marimba 114 (1/2)
+
+;	NOTE F4 1/2
+	(1/2) marimba 115 (1/2)
+
+;	NOTE G#4 1/2
+	(1/2) marimba 116 (1/2)
+
+;	NOTE F4 1
+	(1/2) marimba 117 1
+
+; ----------- measure 18 --- beat 68 --- time signature 5/8
+
+;	NOTE F#3 1/4 measure18
+	1 marimba 118 (1/4)
+
+;	NOTE F#3 1/4
+	(1/4) marimba 119 (1/4)
+
+;	NOTE G#3 1/4
+	(1/4) marimba 120 (1/4)
+
+;	NOTE G#3 1/4
+	(1/4) marimba 121 (1/4)
+
+;	NOTE A#3 1/4
+	(1/4) marimba 122 (1/4)
+
+;	NOTE A#3 1/4
+	(1/4) marimba 123 (1/4)
+
+;	NOTE B3 1/4
+	(1/4) marimba 124 (1/4)
+
+;	NOTE B3 1/4
+	(1/4) marimba 125 (1/4)
+
+;	NOTE C#4 1/4
+	(1/4) marimba 126 (1/4)
+
+;	NOTE C#4 1/4
+	(1/4) marimba 127 (1/4)
+}
+
+
+
+; ----------- measure 2 --- beat 4 --- time signature 4/4
+
+CHORD (F#2 C#3 F#3) 4 e1 measure2
+
+; ----------- measure 3 --- beat 8 --- time signature 4/4
+
+CHORD (F#2 C#3 F#3 C4 F4) 4 e2 measure3
+
+; ----------- measure 4 --- beat 12 --- time signature 4/4
+
+NOTE F#3 4/9 e3 measure4
+NOTE A#3 4/9
+NOTE C4 4/9
+NOTE F4 4/9
+NOTE F#4 4/9 e4
+NOTE A#4 4/9
+NOTE C5 4/9
+NOTE F5 4/9
+NOTE F#5 4/9
+
+; ----------- measure 5 --- beat 16 --- time signature 4/4
+
+NOTE A#4 4/9 e5 measure5 
+NOTE C5 4/9
+NOTE F5 4/9
+NOTE F#5 4/9
+NOTE A#5 4/9
+NOTE C6 4/9 
+NOTE F6 4/9
+NOTE F4 4/9 e6
+NOTE F#4 4/9
+
+; ----------- measure 6 --- beat 20 --- time signature 4/4
+
+CHORD (A#3 D#4 F#4 G#4 D#5) 4 e7 measure6 
+
+; ----------- measure 7 --- beat 24 --- time signature 4/4
+
+NOTE A#4 2 e8 measure7 
+NOTE C5 2 e9
+
+; ----------- measure 8 --- beat 28 --- time signature 4/4
+
+NOTE C#5 2 e10 measure8 
+NOTE D#5 2 e11
+
+; ----------- measure 9 --- beat 32 --- time signature 4/4
+
+CHORD (G#4 C5 D#5) 2 e12 measure9
+NOTE 0 1
+CHORD (F4 G#4 C5 D#5 G5 A#5 C6 D#6) 1
+
+; ----------- measure 10 --- beat 36 --- time signature 4/4
+
+CHORD (F4 G#4 C5 D#5 G5 A#5 C6 D#6) 4 e14 measure10 
+;CHORD (F4 G#4 C5 D#5 G5 A#5 C6 D#6) 2 e14
+
+; ----------- measure 11 --- beat 40 --- time signature 4/4
+
+NOTE 0 4 e15 measure11 
+; CHORD (F4 G#4 C5 D#5 G5 A#5 C6 D#6) 2 e13
+
+; ----------- measure 12 --- beat 44 --- time signature 4/4
+
+NOTE F3 1/2 e16 measure12
+NOTE D#3 1/2
+NOTE C#3 1/2
+NOTE C3 1/2
+NOTE A#2 1/2 
+NOTE F#2 1/2
+NOTE F2 1/2 e17
+NOTE F#2 1/2 
+
+; ----------- measure 13 --- beat 48 --- time signature 4/4
+
+NOTE F2 1/2 e18 measure13 
+NOTE D#2 1/2
+NOTE C#2 1/2
+NOTE C2 1/2
+NOTE F2 1/2 
+NOTE D#2 1/2
+NOTE C#2 1/2 e19
+NOTE C2 1/2 
+
+
+; ----------- measure 14 --- beat 52 --- time signature 4/4
+
+CHORD (C3 F3) 2 e20 measure14 
+CHORD (F2 A#2) 2
+
+; ----------- measure 15 --- beat 56 --- time signature 4/4
+
+NOTE F#6 1/2 e101 measure15
+NOTE C6  1/2
+NOTE C#6 1/2
+NOTE D#6 1/2
+NOTE A#5 1/2
+NOTE D#6 1/2
+NOTE F#6 1/2
+NOTE C#6 1/2
+
+; ----------- measure 16 --- beat 60 --- time signature 4/4
+
+NOTE F#6 1/2 e102 measure16 
+NOTE C6  1/2
+NOTE C#6 1/2
+NOTE D#6 1/2
+NOTE A#5 1/2
+NOTE D#6 1/2
+NOTE F#6 1/2
+NOTE C#6 1/2
+
+; ----------- measure 17 --- beat 64 --- time signature 4/4
+
+NOTE F#6 1/2 e103 measure17
+NOTE C6  1/2
+NOTE C#6 1/2
+NOTE F#6 1/2
+NOTE C6 1/2
+NOTE C#6 1/2
+NOTE D#6 1/2
+NOTE F6 1/2
+
+; ----------- measure 18 --- beat 68 --- time signature 4/4
+
+NOTE A#5 1/4 e104 measure18 
+NOTE F5 1/4
+NOTE G#5 1/4
+NOTE F#5 1/4
+NOTE F6 1/2
+NOTE A#5 1/2
+NOTE D#6 1/2
+NOTE C#6 1/2
+CHORD (A#4 G#5 F6) 1
+
+; ----------- measure 19 --- beat 72 --- time signature 5/8
+
+NOTE 0 5/2 measure19
+
+
+
+
+
+
+
+
+BPM 68
+
+; ----------- measure 20 --- beat 72.5 --- time signature 6/8
+
+CHORD (D5 B5) 1/3 e21 measure20 
+
+group 20to31 @target:= {e21,e23,e25,e27,e29,e30} {
+	
+; ----------- measure 20 --- beat 71 --- time signature 6/8
+;	NOTE B2 1 measure20
+	(60000/68 * 2 - 500)ms marimba 131 (1/1)
+
+;	NOTE A2 1
+	(1) marimba 132 (1/1)
+
+; ----------- measure 21 --- beat  72.3 --- time signature 6/8
+
+;	NOTE G#2 1 measure21
+	(1) marimba 133 (1/1)
+
+;	NOTE F#2 1
+	(1) marimba 134 (1/1)
+; ----------- measure 22 --- beat  73.7 --- time signature 6/8
+
+;	NOTE G#2 1 measure22
+	(1) marimba 135 (1/1)
+
+;	NOTE A2 1
+	(1) marimba 136 (1/1)
+; ----------- measure 23 --- beat  75.0 --- time signature 6/8
+
+;	NOTE F#4 1/3 measure23
+	(1/1) marimba 137 (1/3)
+
+;	NOTE C#4 1/3
+	(1/3) marimba 138 (1/3)
+
+;	NOTE A3 1/3
+	(1/3) marimba 139 (1/3)
+
+;	NOTE F#4 1/3
+	(1/3) marimba 140 (1/3)
+
+;	NOTE C#4 1/3
+	(1/3) marimba 141 (1/3)
+
+;	NOTE A3 1/3
+	(1/3) marimba 142 (1/3)
+
+; ----------- measure 24 --- beat  76.3 --- time signature 6/8
+
+;	NOTE F#4 1/3 measure24
+	(1/3) marimba 143 (1/3)
+
+;	NOTE C#4 1/3
+	(1/3) marimba 144 (1/3)
+;	NOTE A3 1/3
+	(1/3) marimba 145 (1/3)
+
+;	NOTE F#4 1/3
+	(1/3) marimba 146 (1/3)
+
+;	NOTE C#4 1/3
+	(1/3) marimba 147 (1/3)
+
+;	NOTE A3 1/3
+	(1/3) marimba 148 (1/3)
+
+; ----------- measure 25 --- beat  77.7 --- time signature 6/8
+
+;	NOTE E4 1/3 measure25
+	(1/3) marimba 149 (1/3)
+
+;	NOTE B3 1/3
+	(1/3) marimba 150 (1/3)
+
+;	NOTE G#3 1/3
+	(1/3) marimba 151 (1/3)
+
+;	NOTE E4 1/3
+	(1/3) marimba 152 (1/3)
+
+;	NOTE B3 1/3
+	(1/3) marimba 153 (1/3)
+
+;	NOTE G#3 1/3
+	(1/3) marimba 154 (1/3)
+
+
+; ----------- measure 26 --- beat  79.0 --- time signature 6/8
+
+;	NOTE E4 1/3 measure26
+	(1/3) marimba 155 (1/3)
+
+;	NOTE B3 1/3
+	(1/3) marimba 156 (1/3)
+
+;	NOTE G#3 1/3
+	(1/3) marimba 157 (1/3)
+
+;	NOTE E4 1/3
+	(1/3) marimba 158 (1/3)
+
+;	NOTE B3 1/3
+	(1/3) marimba 159 (1/3)
+
+;	NOTE G#3 1/3
+	(1/3) marimba 160 (1/3)
+
+; ----------- measure 27 --- beat  80.3 --- time signature 6/8
+
+;	NOTE D3 1/3 measure27
+	(1/3) marimba 161 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 162 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 163 (1/3)
+
+;	NOTE D3 1/3
+	(1/3) marimba 164 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 165 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 166 (1/3)
+
+
+; ----------- measure 28 --- beat  81.7 --- time signature 6/8
+
+;	NOTE D3 1/3 measure28
+	(1/3) marimba 167 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 168 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 169 (1/3)
+
+;	NOTE D3 1/3
+	(1/3) marimba 170 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 171 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 172 (1/3)
+
+
+; ----------- measure 29 --- beat  83.0 --- time signature 6/8
+
+;	NOTE C#3 1/3 measure29
+	(1/3) marimba 173 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 174 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 175 (1/3)
+
+;	NOTE C#3 1/3
+	(1/3) marimba 176 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 177 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 178 (1/3)
+
+
+; ----------- measure 30 --- beat  84.3 --- time signature 6/8
+
+;	NOTE C#3 1/3 measure30
+	(1/3) marimba 179 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 180 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 181 (1/3)
+
+;	NOTE C#3 1/3
+	(1/3) marimba 182 (1/3)
+
+;	NOTE A2 1/3
+	(1/3) marimba 183 (1/3)
+
+;	NOTE F#2 1/3
+	(1/3) marimba 184 (1/3)
+
+
+; ----------- measure 31 --- beat  86.3 --- time signature 4/4
+
+;	NOTE 0 4
+	(1/3) marimba 0 (4/1)
+}
+
+
+
+
+NOTE F#5 1/3
+CHORD (D5 B5) 1/3
+
+CHORD (E5 C#6) 1/3
+NOTE  F#5      1/3
+CHORD (E5 C#6) 1/3
+
+; ----------- measure 21 --- beat   1.3 --- time signature 6/8
+
+CHORD (D5 B5) 1/3 measure21
+NOTE F#5 1/3
+CHORD (D5 B5) 1/3
+
+CHORD (E5 C#6) 1/3
+NOTE F#5 1/3
+CHORD (E5 C#6) 1/3
+
+; ----------- measure 22 --- beat   2.7 --- time signature 6/8
+
+CHORD (F5 C#6) 1/3 measure22
+CHORD (F5 G#5) 1/3
+CHORD (F5 C#6) 1/3
+
+CHORD (F#5 C#6) 1/3
+CHORD (F#5 A#5) 1/3
+CHORD (F#5 C#6) 1/3
+
+; ----------- measure 23 --- beat 4 --- time signature 6/8
+
+CHORD (F5 C#6) 1/3 e23 measure23
+CHORD (F5 G#5) 1/3
+CHORD (F5 C#6) 1/3
+
+CHORD (G#5 C#6) 3/3
+
+; ----------- measure 24 --- beat   5.3 --- time signature 6/8
+
+NOTE F#5 1/3 measure24
+NOTE  A4 1/3
+NOTE  E5 1/3
+NOTE G#4 1/3
+NOTE  A4 1/3
+CHORD (F#4 B4) 1/3
+
+; ----------- measure 25 --- beat   6.7 --- time signature 6/8
+
+NOTE F#5 1/3 e25 measure25
+NOTE A4 1/3
+CHORD (F#4 E5) 1/3
+NOTE G#4 1/3
+NOTE A4 1/6
+NOTE B4 1/6
+CHORD (F#4 G#4 C#5) 1/3
+
+; ----------- measure 26 --- beat 8 --- time signature 6/8
+
+NOTE F#5 1/3 measure26
+NOTE G#4 1/3
+NOTE E5  1/3
+CHORD (D#4 F#4) 1/3
+NOTE G#4 1/3
+NOTE B4 1/3
+
+; ----------- measure 27 --- beat   9.3 --- time signature 6/8
+
+NOTE F#5 1/3 e27 measure27
+NOTE G#4 1/3
+NOTE E5 1/3
+CHORD (D#4 F#4) 1/3
+NOTE G#4 1/6
+NOTE B4 1/6
+NOTE C#5 1/3
+
+; ----------- measure 28 --- beat  10.7 --- time signature 6/8
+
+NOTE F#5  1/3 measure28
+NOTE F#4  1/3
+NOTE C#5 1/3
+NOTE E4  1/3
+NOTE F#4  1/3
+NOTE A4  1/3
+
+; ----------- measure 29 --- beat  12.0 --- time signature 6/8
+
+NOTE F#5 1/3 e29 measure29
+NOTE F#4 1/3
+NOTE C#5 1/3
+NOTE E4 1/3
+NOTE F#4 1/6
+NOTE A4  1/6
+NOTE C#5 1/3
+
+; ----------- measure 30 --- beat  13.3 --- time signature 6/8
+
+CHORD (C#4 G#4) 1/3 e30 measure30
+CHORD (D#4 A4) 1/3
+CHORD (G#4 C#5) 1/3
+CHORD (C#5 G#5) 1/3
+CHORD (D#5 A5) 1/3
+CHORD (G#5 C#6) 1/3
+
+; ----------- measure 31 --- beat  14.7 --- time signature 6/8
+
+CHORD (C#6 G#6) 1/3 measure31
+CHORD (D#6 A6) 1/3
+CHORD (G#6 C#7) 4/3
+
+
+antescofo::temposmoothness 0.8
+
+BPM 90
+
+; ----------- measure 32 --- beat  16.7 --- time signature 4/4
+
+NOTE D6 1/2 measure32
+
+group 32to42 @target:={e31,e32,e33,e34,e35,e36,e37,e38,e39,e40,e41,e42,e43,e44,e45,e46,e47,e48,e49,e50} {
+; ----------- measure 32 --- beat  90.3 --- time signature 4/4
+
+;	NOTE A4 1/2 measure32
+	(60000/90 * 4 - 500)ms marimba 185 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 186 (1/2)
+
+;	NOTE F#4 1/4
+	(1/2) marimba 187 (1/4)
+
+;	NOTE B4 1/4
+	(1/4) marimba 188 (1/4)
+
+;	NOTE D4 1/2
+	(1/4) marimba 189 (1/2)
+
+;	NOTE A4 1/2
+	(1/2) marimba 190 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 191 (1/2)
+
+;	NOTE F#4 1/4
+	(1/2) marimba 192 (1/4)
+
+;	NOTE B3 1/4
+	(1/4) marimba 193 (1/4)
+
+;	NOTE D4 1/2
+	(1/4) marimba 194 (1/2)
+
+; ----------- measure 33 --- beat  94.3 --- time signature 4/4
+
+;	NOTE A5 1/2 measure33
+	(1/2) marimba 195 (1/2)
+
+;	NOTE F#5 1/2
+	(1/2) marimba 196 (1/2)
+
+;	NOTE F#5 1/4
+	(1/2) marimba 197 (1/4)
+
+;	NOTE B5 1/4
+	(1/4) marimba 198 (1/4)
+
+;	NOTE D5 1/2
+	(1/4) marimba 199 (1/2)
+
+;	NOTE A5 1/2
+	(1/2) marimba 200 (1/2)
+
+;	NOTE F#5 1/2
+	(1/2) marimba 201 (1/2)
+
+;	NOTE F#5 1/4
+	(1/2) marimba 202 (1/4)
+
+;	NOTE B4 1/4
+	(1/4) marimba 203 (1/4)
+
+;	NOTE A5 1/2
+	(1/4) marimba 204 (1/2)
+
+
+; ----------- measure 34 --- beat  98.3 --- time signature 4/4
+
+;	NOTE A4 1/2 measure34
+	(1/2) marimba 205 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 206 (1/2)
+
+;	NOTE F#4 1/4
+	(1/2) marimba 207 (1/4)
+
+;	NOTE G4 1/4
+	(1/4) marimba 208 (1/4)
+
+;	NOTE D5 1/2
+	(1/4) marimba 209 (1/2)
+
+;	NOTE A4 1/2
+	(1/2) marimba 210 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 211 (1/2)
+
+;	NOTE F#4 1/4
+	(1/2) marimba 212 (1/4)
+
+;	NOTE G4 1/4
+	(1/4) marimba 213 (1/4)
+
+;	NOTE B4 1/4
+	(1/4) marimba 214 (1/4)
+
+;	NOTE C#5 1/4
+	(1/4) marimba 215 (1/4)
+
+; ----------- measure 35 --- beat 102.3 --- time signature 4/4
+
+;	NOTE D5 1/2 measure35
+	(1/4) marimba 216 (1/2)
+
+;	NOTE C#5 1/2
+	(1/2) marimba 217 (1/2)
+
+;	NOTE C#5 1/2
+	(1/2) marimba 218 (1/2)
+
+;	NOTE B4 1/2
+	(1/2) marimba 219 (1/2)
+
+;	NOTE B4 1/2
+	(1/2) marimba 220 (1/2)
+
+;	NOTE A4 1/2
+	(1/2) marimba 221 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 222 (1/4)
+
+;	NOTE D5 1/4
+	(1/4) marimba 223 (1/4)
+
+;	NOTE F#5 1/4
+	(1/4) marimba 224 (1/4)
+
+;	NOTE B5 1/4
+	(1/4) marimba 225 (1/4)
+
+; ----------- measure 36 --- beat 106.3 --- time signature 4/4
+
+;	NOTE G#5 1/2 measure36
+	(1/4) marimba 226 (1/2)
+
+;	NOTE E5 1/2
+	(1/2) marimba 227 (1/2)
+
+;	NOTE B5 1/2
+	(1/2) marimba 228 (1/2)
+
+;	NOTE A5 1/2
+	(1/2) marimba 229 (1/2)
+
+;	NOTE G#5 1/2
+	(1/2) marimba 230 (1/2)
+
+;	NOTE F#5 1/2
+	(1/2) marimba 231 (1/2)
+
+;	NOTE G#5 1/2
+	(1/2) marimba 232 (1/2)
+
+;	NOTE E5 1/2
+	(1/2) marimba 233 (1/2)
+
+
+; ----------- measure 37 --- beat 110.3 --- time signature 4/4
+
+;	NOTE G#4 1/2 measure37
+	(1/2) marimba 234 (1/2)
+
+;	NOTE E4 1/2
+	(1/2) marimba 235 (1/2)
+
+;	NOTE B4 1/2
+	(1/2) marimba 236 (1/2)
+
+;	NOTE A4 1/2
+	(1/2) marimba 237 (1/2)
+
+;	NOTE G#4 1/2
+	(1/2) marimba 238 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 239 (1/2)
+
+;	NOTE G#4 1/4
+	(1/2) marimba 240 (1/4)
+
+;	NOTE A4 1/4
+	(1/4) marimba 241 (1/4)
+
+;	NOTE G#4 1/2
+	(1/4) marimba 242 (1/2)
+
+; ----------- measure 38 --- beat 114.3 --- time signature 7/4
+
+;	NOTE B4 1/4 measure38
+	(1/2) marimba 243 (1/4)
+
+;	NOTE B4 1/2
+	(1/4) marimba 244 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 245 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE A3 1/4
+	(1/4) marimba 246 (1/4)
+
+;	NOTE D4 1/4
+	(1/4) marimba 247 (1/4)
+
+;	NOTE E4 1/4
+	(1/4) marimba 248 (1/4)
+
+;	NOTE F#4 1/4
+	(1/4) marimba 249 (1/4)
+
+;	NOTE B4 1/4
+	(1/4) marimba 250 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 251 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 252 (1/4)
+
+;	NOTE B4 1/2
+	(1/4) marimba 253 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 254 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE B4 1/2
+	(1/2) marimba 255 (1/2)
+
+;	NOTE B4 1/2
+	(1/2) marimba 256 (1/2)
+
+;	NOTE D4 1/4
+	(1/2) marimba 257 (1/4)
+
+;	NOTE A4 1/4
+	(1/4) marimba 258 (1/4)
+
+;	NOTE D5 1/4
+	(1/4) marimba 259 (1/4)
+
+;	NOTE F#5 1/4
+	(1/4) marimba 260 (1/4)
+
+;	NOTE A5 1/2
+	(1/4) marimba 261 (1/2)
+
+
+; ----------- measure 39 --- beat 121.3 --- time signature 7/8
+
+;	NOTE F#4 1/4 measure39
+	(1/2) marimba 262 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 263 (1/2)
+
+;	NOTE F#4 1/4
+	(1/2) marimba 264 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 265 (1/2)
+
+;	NOTE 0 1/4
+	(1/2) marimba 0 (1/4)
+
+;	NOTE F#4 1/4
+	(1/4) marimba 266 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE F#4 1/2
+	(1/2) marimba 267 (1/2)
+
+
+; ----------- measure 40 --- beat 124.8 --- time signature 7/8
+
+;	NOTE E4 1/4 measure40
+	(1/2) marimba 268 (1/4)
+
+;	NOTE B4 1/2
+	(1/4) marimba 269 (1/2)
+
+;	NOTE E4 1/4
+	(1/2) marimba 270 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE E4 1/2
+	(1/2) marimba 271 (1/2)
+
+;	NOTE 0 1/4
+	(1/2) marimba 0 (1/4)
+
+;	NOTE E4 1/4
+	(1/4) marimba 272 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE E4 1/2
+	(1/2) marimba 273 (1/2)
+
+; ----------- measure 41 --- beat 128.3 --- time signature 4/4
+
+;	NOTE C#5 3/4 measure41
+	(1/2) marimba 274 (3/4)
+
+;	NOTE C#5 1/4
+	(3/4) marimba 275 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 276 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 277 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE G#4 1/4
+	(1/4) marimba 278 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE G#4 1/2
+	(1/2) marimba 279 (1/2)
+
+;	NOTE G#4 1/2
+	(1/2) marimba 280 (1/2)
+
+
+; ----------- measure 42 --- beat 132.3 --- time signature 4/4
+
+;	NOTE C#5 3/4 measure42
+	(1/2) marimba 281 (3/4)
+
+;	NOTE C#5 1/4
+	(3/4) marimba 282 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 283 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 284 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE G#4 1/4
+	(1/4) marimba 285 (1/4)
+
+;	NOTE 0 1/2
+	(1/4) marimba 0 (1/2)
+
+;	NOTE G#4 1/2
+	(1/2) marimba 286 (1/2)
+
+;	NOTE G#4 1/2
+	(1/2) marimba 287 (1/2)
+
+; ----------- measure 43 --- beat 136.6 --- time signature 4/4
+
+;	NOTE F#5 1/2 measure43
+	1/2 marimba 288 (1/2)
+
+;	NOTE F#5 1/4
+	(1/2) marimba 289 (1/4)
+
+;	NOTE E5 1/4
+	(1/4) marimba 290 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE E5 1/4
+	(1/4) marimba 291 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 292 (1/2)
+
+;	NOTE C#5 1/4
+	(1/2) marimba 293 (1/4)
+
+;	NOTE B4 1/2
+	(1/4) marimba 294 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 295 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 296 (1/2)
+
+;	NOTE C#5 1/2
+	(1/2) marimba 297 (1/2)
+
+
+; ----------- measure 44 --- beat 140.6 --- time signature 4/4
+
+;	NOTE F#5 1/2 measure44
+	(1/2) marimba 298 (1/2)
+
+;	NOTE F#5 1/4
+	(1/2) marimba 299 (1/4)
+
+;	NOTE G#5 1/4
+	(1/4) marimba 300 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE G#5 1/2
+	(1/4) marimba 301 (1/2)
+
+;	NOTE G#5 1/4
+	(1/2) marimba 302 (1/4)
+
+;	NOTE A5 3/4
+	(1/4) marimba 303 (3/4)
+
+;	NOTE A5 1/4
+	(3/4) marimba 304 (1/4)
+
+;	NOTE B5 1/2
+	(1/4) marimba 305 (1/2)
+
+;	NOTE A5 1/2
+	(1/2) marimba 306 (1/2)
+
+; ----------- measure 45 --- beat 144.6 --- time signature 4/4
+
+;	NOTE 0 1/2 measure45
+	(1/2) marimba 0 (1/2)
+
+;	NOTE A4 1/4
+	(1/2) marimba 307 (1/4)
+
+;	NOTE F#5 1/4
+	(1/4) marimba 308 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE F#5 1/2
+	(1/4) marimba 309 (1/2)
+
+;	NOTE E5 1/4
+	(1/2) marimba 310 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 311 (1/2)
+
+;	NOTE F#4 1/4
+	(1/2) marimba 312 (1/4)
+
+;	NOTE E4 1/4
+	(1/4) marimba 313 (1/4)
+
+;	NOTE B3 1/4
+	(1/4) marimba 314 (1/4)
+
+;	NOTE A3 1/4
+	(1/4) marimba 315 (1/4)
+
+;	NOTE G#3 1/4
+	(1/4) marimba 316 (1/4)
+
+; ----------- measure 46 --- beat 148.6 --- time signature 3/4
+
+;	NOTE F#3 1/4 measure46
+	(1/4) marimba 317 (1/4)
+
+;	NOTE C#4 1/4
+	(1/4) marimba 318 (1/4)
+
+;	NOTE G#4 1/4
+	(1/4) marimba 319 (1/4)
+
+;	NOTE F#5 1/4
+	(1/4) marimba 320 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE E5 1/2
+	(1/4) marimba 321 (1/2)
+
+;	NOTE B4 1/4
+	(1/2) marimba 322 (1/4)
+
+;	NOTE 0 1
+	(1/4) marimba 0 (1)
+
+
+; ----------- measure 47 --- beat 151.6 --- time signature 4/4
+
+;	NOTE 0 1 measure47
+	(1) marimba 0 (1)
+
+;	NOTE A3 1/2
+	(1) marimba 323 (1/2)
+
+;	NOTE F#3 1/2
+	(1/2) marimba 324 (1/2)
+
+;	NOTE A3 1/2
+	(1/2) marimba 325 (1/2)
+
+;	NOTE F#3 1/2
+	(1/2) marimba 326 (1/2)
+
+;	NOTE A3 1/2
+	(1/2) marimba 327 (1/2)
+
+;	NOTE F#3 1/2
+	(1/2) marimba 328 (1/2)
+
+
+; ----------- measure 48 --- beat 155.6 --- time signature 4/4
+
+;	NOTE E4 1/2 measure48
+	(1/2) marimba 329 (1/2)
+
+;	NOTE A3 1/2
+	(1/2) marimba 330 (1/2)
+
+;	NOTE E4 1/2
+	(1/2) marimba 331 (1/2)
+
+;	NOTE A3 1/2
+	(1/2) marimba 332 (1/2)
+
+;	NOTE E4 1/2
+	(1/2) marimba 333 (1/2)
+
+;	NOTE A3 1/2
+	(1/2) marimba 334 (1/2)
+
+;	NOTE D#4 1/2
+	(1/2) marimba 335 (1/2)
+
+;	NOTE A#3 1/2
+	(1/2) marimba 336 (1/2)
+
+
+; ----------- measure 49 --- beat 159.6 --- time signature 4/4
+
+;	NOTE D#4 1/2 measure49
+	(1/2) marimba 337 (1/2)
+
+;	NOTE A#3 1/2
+	(1/2) marimba 338 (1/2)
+
+;	NOTE D#4 1/2
+	(1/2) marimba 339 (1/2)
+
+;	NOTE A#3 1/2
+	(1/2) marimba 340 (1/2)
+
+;	NOTE D#4 1/2
+	(1/2) marimba 341 (1/2)
+
+;	NOTE A#3 1/2
+	(1/2) marimba 342 (1/2)
+
+;	NOTE D#4 1/2
+	(1/2) marimba 343 (1/2)
+
+;	NOTE A#3 1/2
+	(1/2) marimba 344 (1/2)
+
+}
+
+
+
+NOTE C#6 1/2
+NOTE C#6 1/4 e31
+NOTE G5 1/4
+NOTE B5 1/2 
+NOTE C#6 1/2
+NOTE D6 1/2
+NOTE C#6 1/4
+NOTE G5 1/4
+NOTE A5 1/2
+
+; ----------- measure 33 --- beat  20.7 --- time signature 4/4
+
+NOTE D6 1/2 measure33
+NOTE C#6 1/2
+NOTE C#6 1/4
+NOTE G5 1/4
+NOTE B5 1/2
+NOTE C#6 1/2 e32
+NOTE D6 1/2
+NOTE C#6 1/4
+NOTE G5 1/4
+NOTE A5 1/2
+
+; ----------- measure 34 --- beat  24.7 --- time signature 4/4
+
+NOTE D5 1/2 measure34
+NOTE C#5 1/2
+NOTE C#5 1/4 
+NOTE G4 1/4
+NOTE B4 1/2
+NOTE C#5 1/2 e33
+NOTE D5 1/2
+NOTE C#5 1/4
+NOTE G4 1/4
+NOTE A4 1/2
+
+; ----------- measure 35 --- beat  28.7 --- time signature 4/4
+
+NOTE D5 1/4 measure35
+CHORD (G3 -D5)  1/4
+CHORD (-G3 C#5) 1/4
+CHORD (D4 -C#5) 1/4
+CHORD (-D4 C#5) 1/4
+CHORD (-D4 D5)  1/4
+CHORD (-D4 C#5) 1/4
+CHORD (-D4 B4)  1/4
+NOTE  C#5       1/4 e34 
+CHORD (G3 -C#5) 1/4
+CHORD (-G3 F#4) 1/4
+CHORD (D4 -F#4) 1/4
+CHORD (-D4 C#5) 1/4
+CHORD (-D4 D5)  1/4
+CHORD (-D4 C#5) 1/4
+CHORD (-D4 B4)  1/4
+
+; ----------- measure 36 --- beat  32.7 --- time signature 4/4
+
+NOTE C#5 1/2 e35 measure36
+NOTE C#5 1/2
+NOTE C#5 1/2
+NOTE G4  1/2
+NOTE C#5 1/2
+NOTE D5  1/2
+NOTE B4  1/4
+NOTE A4  1/4
+NOTE D5  1/4
+NOTE F#5 1/4
+
+; ----------- measure 37 --- beat  36.7 --- time signature 4/4
+
+NOTE  G#5        1/4 e36 measure37
+CHORD (C#4 -G#5) 1/4
+CHORD (-C#4 E5)  1/4
+CHORD (G#4 -E5)  1/4
+CHORD (-G#4 B5)  1/4
+CHORD (C#5 -B5)  1/4
+CHORD (-C#5 A5)  1/4
+CHORD (G#4 -A5)  1/4
+NOTE  G#5        1/4
+CHORD (C#4 -G#5) 1/4
+CHORD (-C#4 F#5) 1/4
+CHORD (G#4 -F#5) 1/4
+CHORD (-G#4 G#5) 1/4
+CHORD (C#5 -G#5) 1/4
+CHORD (-C#5 E5)  1/4
+CHORD (G#4 -E5)  1/4
+
+; ----------- measure 38 --- beat  40.7 --- time signature 4/4
+
+NOTE  G#5        1/4 e37 measure38
+CHORD (C#4 -G#5) 1/4
+CHORD (-C#4 E5)  1/4
+CHORD (G#4 -E5)  1/4
+NOTE  B5  	     1/4
+NOTE  A5         1/4
+NOTE  G#5  		 1/4
+NOTE  F#5 		 1/4
+NOTE  G#5 		 1/4
+CHORD (C#4 -G#5) 1/4
+CHORD (-C#4 F#5) 1/4
+CHORD (G#4 -F#5) 1/4
+NOTE  G#5        1/4
+NOTE  A5         1/4
+NOTE  G#5        1/2
+
+; ----------- measure 39 --- beat  44.7 --- time signature 7/4
+
+CHORD (D4 A4 D5 F#5 B5) 1/2 e38 measure39
+CHORD (-D4 -A4 E5)      1/4
+CHORD (-D4 -A4 F#5)     1/4
+CHORD (-D4 -A4 E5 B5)   1/2
+CHORD (D4 -E5 -B5)      1/4
+CHORD (A4 -E5 -B5)      1/4
+NOTE  D5                1/4
+NOTE  E5                1/4
+NOTE  F#5               1/4
+NOTE  B5                1/4
+NOTE  F#5               1/2 e39
+CHORD (D4 A4 D5 F#5 B5) 1/2
+CHORD (-D4 -A4 E5)      1/4
+CHORD (-D4 -A4 F#5)     1/4
+CHORD (-D4 -A4 E5 B5)   1/2
+NOTE  D4 				1/4
+NOTE  A4 				1/4
+NOTE  D5 				1/4 e40
+NOTE  E5 				1/4
+NOTE  F#5 				1/4
+NOTE  C#6 				1/4
+NOTE  F#5 				1/2
+
+; ----------- measure 40 --- beat  51.7 --- time signature 7/8
+
+CHORD (G3 D4 G4 E5 F#5 C#6) 1/2 e41 measure40
+CHORD (-G3 -D4 -G4 E5)      1/4
+CHORD (-G3 -D4 -G4 F#5)     1/4
+CHORD (-G3 -D4 -G4 C#6)     1/2
+CHORD (G3 -C#6) 			1/4
+CHORD (D4 -C#6) 			1/4
+CHORD (-D4 D5) 				1/4
+CHORD (-D4 E5) 				1/4
+CHORD (-D4 F#5) 			1/4
+CHORD (-D4 D6) 				1/4
+CHORD (-D4 B5) 				1/2
+
+; ----------- measure 41 --- beat  55.2 --- time signature 7/8
+
+CHORD (E3 B3 B4 F#5 A5)     1/2 e42 measure41
+CHORD (-E3 -B3 E5)          1/4
+CHORD (-E3 -B3 F#5)         1/4
+CHORD (-E3 -B3 E5 B5)       1/2
+CHORD (E3 -E5 -B5)  		1/4
+CHORD (B3 -E5 -B5) 			1/4
+CHORD (-B3 D5) 				1/4
+CHORD (-B3 E5) 				1/4
+CHORD (-B3 F#5) 			1/4
+CHORD (-B3 D6) 				1/4
+CHORD (-B3 F#5) 			1/4
+CHORD (-B3 B4) 				1/4
+
+; ----------- measure 42 --- beat  58.7 --- time signature 4/4
+
+NOTE F#5 		1/2 e43 measure42
+NOTE E5 		1/4
+NOTE F#5 		1/4
+NOTE A5 		1/2
+CHORD (F#4 -A5) 1/4
+CHORD (G#4 -A5) 1/4
+NOTE A4 		1/4
+NOTE C#5 		1/4
+NOTE E5 		1/4
+CHORD (-E5 A5)  1/4
+NOTE F#5 		1/4
+NOTE E5 		1/4
+NOTE F#5 		1/4
+NOTE G#5 		1/4
+
+; ----------- measure 43 --- beat  62.7 --- time signature 4/4
+
+NOTE F#5 		1/2 measure43 
+NOTE E5 		1/4 e44
+NOTE F#5 		1/4
+NOTE A5 		1/2
+CHORD (F#4 -A5) 1/4
+CHORD (G#4 -A5) 1/4
+NOTE A4 		1/4
+NOTE C#5 		1/4
+NOTE E5 		1/4
+CHORD (-E5 A5)  1/4
+NOTE F#5 		1/4
+NOTE E5 		1/4
+NOTE F#5 		1/4
+NOTE G#5 		1/4
+
+; ----------- measure 44 --- beat  66.7 --- time signature 4/4
+
+NOTE  F#4        1/4 measure44
+NOTE  A4 		 1/4 e45
+NOTE  C#5 		 1/4
+CHORD (-C#5 C#6) 1/4
+NOTE  A4 		 1/4
+NOTE  C#5 		 1/4
+CHORD (-C#5 G#5) 1/4
+CHORD (F#4 -G#5) 1/4
+NOTE  G#4 		 1/4 e46
+NOTE  A4 		 1/4
+CHORD (-A4 F#5)  1/4
+CHORD (A4 -F#5)  1/4
+NOTE  B5 		 1/4
+CHORD (A4 -B5)   1/4
+CHORD (-A4 A5)   1/4
+CHORD (A4 -A5)   1/4
+
+; ----------- measure 45 --- beat  70.7 --- time signature 4/4
+
+NOTE  F#4 		 1/4 measure45
+NOTE  A4 		 1/4 e47
+NOTE  C#5 		 1/4
+CHORD (-C#5 C#6) 1/4
+NOTE  A4 		 1/4
+NOTE  C#5 		 1/4
+CHORD (-C#5 G#5) 1/4
+CHORD (F#4 -G#5) 1/4
+NOTE  G#4 		 1/4 e48
+NOTE  A4 		 1/4
+CHORD (-A4 F#5)  1/4
+CHORD (A4 -F#5)  1/4
+CHORD (B4 B5)    1/4
+CHORD (A4 -B4 -B5) 1/4
+CHORD (A4 A5)    1/4
+CHORD (-A4 -A5)  1/4
+
+; ----------- measure 46 --- beat  74.7 --- time signature 4/4
+
+NOTE  F#4 			  1/4 measure46
+NOTE  A4 			  1/4 e49
+NOTE  C#5 			  1/4
+CHORD (-C#5 C#6) 	  1/4
+NOTE  C#5 			  1/4
+CHORD (-C#5 G#5 C#6)  1/4
+CHORD (C#5 -G#5 -C#6) 1/4
+CHORD (-C#5 F#5 C#6)  1/4
+NOTE  C#5 			  1/4
+CHORD (-C#5 E5 C#6)   1/4
+NOTE  0 			  1/4
+NOTE  F#5 			  1/4
+NOTE  E5 			  1/4
+NOTE  B4 			  1/4
+NOTE  A4 		      1/4
+NOTE  G#4 			  1/4
+
+; ----------- measure 47 --- beat  78.7 --- time signature 3/4
+
+NOTE   F#4 			  	1/4 e50 measure47
+NOTE   C#5 			  	1/4
+NOTE   G#5 				1/4
+NOTE   A5 				1/4
+NOTE   0 				1/4
+CHORD (F#1 F#2 F#4 C#5) 1/2
+CHORD (F#1 F#2 F#4 C#5) 1/4
+NOTE   0 1
+
+; ----------- measure 48 --- beat  81.7 --- time signature 4/4
+
+NOTE  E2 					  1/4 e51 measure48
+NOTE  B2 					  1/4
+NOTE  E3 					  1/4
+CHORD (-E3 B3 C#4 F#4) 		  1/4
+CHORD (-B3 -C#4 -F#4) 		  1/4
+CHORD (F#2 -B3 -C#4 -F#4) 	  1/4
+CHORD (C#3 F#3 A3 B3 E4) 	  1/2
+CHORD (-C#3 -F#3 -A3 -B3 -E4) 2
+
+; ----------- measure 49 --- beat  85.7 --- time signature 4/4
+
+CHORD (-C#3 -F#3 -A3 -B3 -E4) 2   e52 measure49
+CHORD (E2 -A3 -B3 -E4)        1/4
+CHORD (B2 -A3 -B3 -E4) 		  1/4
+CHORD (E3 -A3 -B3 -E4) 		  1/4
+CHORD (-E3 B3 C#4 F#4) 		  1/4
+CHORD (-E3 -B3 -C#4 -F#4) 	  1/4
+CHORD (G#2 -B3 -C#4 -F#4) 	  1/4
+CHORD (D#3 G#3 B3 C#4 G#4) 	  1/2
+
+; ----------- measure 50 --- beat  89.7 --- time signature 4/4
+
+CHORD (-D#3 -G#3 -B3 -C#4 -G#4) 4 e53 measure50
+
+
+
+
+antescofo::temposmoothness 0.9
+
+BPM 100
+
+; ----------- measure 51 --- beat  89.7 --- time signature 4/4
+
+CHORD (G#3 C#4 D#4 G#4 C5) 1/2 e54 measure51
+
+group 51to60 @target:={e54,e55,e56,e57,e58,e59,e60,e61,e62,e63,e64,e65,e66,e67,e68}
+{
+
+; ----------- measure 51 --- beat 167.6 --- time signature 4/4
+
+
+;	NOTE A#2 1 measure51
+	(60000/100 * 4 - 500)ms marimba 345 (1/1)
+
+;	NOTE A#2 1
+	(1/1) marimba 346 (1/1)
+
+;	NOTE A#2 1
+	(1/1) marimba 347 (1/1)
+
+;	NOTE A#2 1
+	(1/1) marimba 348 (1/1)
+
+; ----------- measure 52 --- beat 171.6 --- time signature 4/4
+
+
+;	NOTE D#2 1 measure52
+	(1/1) marimba 349 (1/1)
+
+;	NOTE D#2 1
+	(1/1) marimba 350 (1/1)
+
+;	NOTE D#2 1
+	(1/1) marimba 351 (1/1)
+
+;	NOTE D#2 1
+	(1/1) marimba 352 (1/1)
+
+; ----------- measure 53 --- beat 175.6 --- time signature 4/4
+
+
+;	NOTE C#2 1 measure53
+	(1/1) marimba 353 (1/1)
+
+;	NOTE C#2 1
+	(1/1) marimba 354 (1/1)
+
+;	NOTE C#2 1
+	(1/1) marimba 355 (1/1)
+
+;	NOTE C#2 1
+	(1/1) marimba 356 (1/1)
+
+; ----------- measure 54 --- beat 179.6 --- time signature 4/4
+
+
+;	NOTE F5 1/2 measure54
+	(1/1) marimba 357 (1/2)
+
+;	NOTE F5 1/4
+	(1/2) marimba 358 (1/4)
+
+;	NOTE C#5 1/4
+	(1/4) marimba 359 (1/4)
+
+;	NOTE 0 1/4
+	(1/4) marimba 0 (1/4)
+
+;	NOTE C#5 1/2
+	(1/4) marimba 360 (1/2)
+
+;	NOTE C#5 1/4
+	(1/2) marimba 361 (1/4)
+
+;	NOTE C5 1/4
+	(1/4) marimba 362 (1/4)
+
+;	NOTE C#5 1/4
+	(1/4) marimba 363 (1/4)
+
+;	NOTE D#5 1/2
+	(1/4) marimba 364 (1/2)
+
+;	NOTE C#5 1/4
+	(1/2) marimba 365 (1/4)
+
+;	NOTE C5 1/4
+	(1/4) marimba 366 (1/4)
+
+;	NOTE A#4 1/4
+	(1/4) marimba 367 (1/4)
+
+;	NOTE G#4 1/4
+	(1/4) marimba 368 (1/4)
+
+; ----------- measure 55 --- beat 183.6 --- time signature 4/4
+
+
+;	NOTE G#2 1 measure55
+	(1/4) marimba 369 (1/1)
+
+;	NOTE G#2 1
+	(1/1) marimba 370 (1/1)
+
+;	NOTE G#2 1
+	(1/1) marimba 371 (1/1)
+
+;	NOTE G#2 1
+	(1/1) marimba 372 (1/1)
+
+; ----------- measure 56 --- beat 187.6 --- time signature 4/4
+
+
+;	NOTE F2 1 measure56
+	(1/1) marimba 373 (1/1)
+
+;	NOTE F2 1
+	(1/1) marimba 374 (1/1)
+
+;	NOTE F2 1
+	(1/1) marimba 375 (1/1)
+
+;	NOTE F2 1
+	(1/1) marimba 376 (1/1)
+
+; ----------- measure 57 --- beat 191.6 --- time signature 4/4
+
+
+;	NOTE C5 3/2 measure57
+	(1/1) marimba 377 (3/2)
+
+;	NOTE D#5 1/2
+	(3/2) marimba 378 (1/2)
+
+;	NOTE D#5 1
+	(1/2) marimba 379 (1/1)
+
+;	NOTE C#5 1
+	(1/1) marimba 380 (1/1)
+
+; ----------- measure 58 --- beat 195.6 --- time signature 4/4
+
+
+;	NOTE C#4 1 measure58
+	(1/1) marimba 381 (1/1)
+
+;	NOTE G#4 1
+	(1/1) marimba 382 (1/1)
+
+;	NOTE C5 1
+	(1/1) marimba 383 (1/1)
+
+;	NOTE G#5 1
+	(1/1) marimba 384 (1/1)
+
+; ----------- measure 59 --- beat 199.6 --- time signature 4/4
+
+
+;	NOTE F4 1 measure59
+	(1/1) marimba 385 (1/1)
+
+;	NOTE G#4 1
+	(1/1) marimba 386 (1/1)
+
+;	NOTE C5 1
+	(1/1) marimba 387 (1/1)
+
+;	NOTE A#5 1
+	(1/1) marimba 388 (1/1)
+
+}
+
+
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+CHORD (-G#3 -C#4 -D#4)	   1/4
+CHORD (-G#3 -C#4 -D#4 C5)  1/2 
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+CHORD (-G#3 -C#4 -D#4 C#5) 1/4
+CHORD (-G#3 -C#4 -D#4 D#5) 1/2
+CHORD (-G#3 -C#4 -D#4 C#5) 1/4
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+CHORD (-G#3 -C#4 -D#4 G#4) 1/2
+
+; ----------- measure 52 --- beat 4 --- time signature 4/4
+
+CHORD (F#3 A#3 C#4 F#4 A#4) 3/4 e55 measure52
+CHORD (-F#3 -A#3 -C#4 G#4)  1/4
+CHORD (-F#3 -A#3 -C#4 -G#4) 1/4
+CHORD (-F#3 -A#3 -C#4 A#4)  1/2
+CHORD (-F#3 -A#3 -C#4 D#5)  1/4
+CHORD (-F#3 -A#3 -C#4 F5)   1/2 e56
+CHORD (-F#3 -A#3 -C#4 A#5)  1/2
+CHORD (F#4 A#4 C#5 C#6) 	1
+
+; ----------- measure 53 --- beat 8 --- time signature 4/4
+
+CHORD (G#3 C#4 D#4 G#4 C5) 1/2 e57 measure53
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+CHORD (-G#3 -C#4 -D#4 C5)  1/4 
+CHORD (-G#3 -C#4 -D#4) 	   1/4 e58
+CHORD (-G#3 -C#4 -D#4 C5)  1/2
+CHORD (-G#3 -C#4 -D#4 C5)  1/4
+NOTE  C5 				   1/4 
+NOTE  C#5 				   1/4
+NOTE  D#5 				   1/2
+NOTE  C#5 				   1/4
+NOTE  C5 				   1/4
+NOTE  G#4 				   1/4
+NOTE  F#4 				   1/4
+
+; ----------- measure 54 --- beat 12 --- time signature 4/4
+
+CHORD (F#3 A#3 C#4 F#4 A#4) 3/4 e59 measure54
+CHORD (-F#3 -A#3 -C#4 G#4)  1/4
+CHORD (-F#3 -A#3 -C#4 G#4)  1/4 e50
+CHORD (-F#3 -A#3 -C#4 A#4)  1/2 
+CHORD (-F#3 -A#3 -C#4 D#5)  1/4
+CHORD (-F#3 -A#3 -C#4 F5)   1/2
+CHORD (-F#3 -A#3 -C#4 A#5)  1/2
+CHORD (F#4 A#4 C#5 C#6)     1/4 
+CHORD (-F#4 -A#4 -C#5 C6)  	1/4
+CHORD (-F#4 -A#4 -C#5 A#5) 	1/4
+CHORD (-F#4 -A#4 -C#5 G#5) 	1/4
+
+; ----------- measure 55 --- beat 16 --- time signature 4/4
+
+CHORD (F#3 A#3 C#4 F#4 F5)      1/2 e61 measure55
+CHORD (-F#3 -A#3 -C#4 -F#4 F5) 	1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 C#5) 3/8
+CHORD (-F#3 -A#3 -C#4 -F#4) 	1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 C#5) 1/2
+CHORD (-F#3 -A#3 -C#4 -F#4 C#5) 1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 C5) 	1/4 e62
+CHORD (-F#3 -A#3 -C#4 -F#4 C#5) 1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 D#5) 1/2
+CHORD (-F#3 -A#3 -C#4 -F#4 C#5) 1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 C5) 	1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 A#4) 1/4
+CHORD (-F#3 -A#3 -C#4 -F#4 G#4) 1/8
+NOTE  -G#4 					    1/8
+
+; ----------- measure 56 --- beat 20 --- time signature 4/4
+
+CHORD (G#3 C#4 D#4 A#4) 		1/4 e63 measure56
+CHORD (-G#3 -C#4 -D#4 -A#4 C5) 	1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 C#5) 1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 A#5) 1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 A#5) 1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 C5) 	1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 G#5) 1/2
+CHORD (-G#3 -C#4 -D#4 -A#4 C5) 	1/4 e64
+CHORD (-G#3 -C#4 -D#4 -A#4 F5) 	1/2
+CHORD (-G#3 -C#4 -D#4 -A#4 C5) 	1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 G#5) 1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 C#5) 1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 F5) 	1/4
+CHORD (-G#3 -C#4 -D#4 -A#4 D#5) 1/4
+
+; ----------- measure 57 --- beat 24 --- time signature 4/4
+
+CHORD (F3 A#3 C#4 F4 C5) 		3/4 e65 measure57
+CHORD (-F3 -A#3 -C#4 -F4 C5) 	3/4
+CHORD (-F3 -A#3 -C#4 -F4 C#5) 	3/4
+CHORD (-F3 -A#3 -C#4 -F4 C5) 	3/4
+CHORD (-F3 -A#3 -C#4 -F4 A#4) 	1/2
+CHORD (-F3 -A#3 -C#4 -F4 C5) 	1/2
+
+; ----------- measure 58 --- beat 28 --- time signature 4/4
+
+CHORD (F3 A#3 C#4 D#4 D#5) 		3/4 e66 measure58
+CHORD (-F3 -A#3 -C#4 -D#4 D#5) 	3/4
+CHORD (-F3 -A#3 -C#4 -D#4 F5) 	3/4
+CHORD (-F3 -A#3 -C#4 -D#4 F5) 	3/4
+CHORD (-F3 -A#3 -C#4 -D#4 G#5) 	1/2
+CHORD (-F3 -A#3 -C#4 -D#4 G#5) 	1/2
+
+; ----------- measure 59 --- beat 32 --- time signature 4/4
+
+CHORD (F#3 A#3 C#4 F4 A#5) 		3/4 e67 measure59
+CHORD (-F#3 -A#3 -C#4 -F4 C#6) 	3/4
+CHORD (-F#3 -A#3 -C#4 -F4 C6) 	3/4
+CHORD (-F#3 -A#3 -C#4 -F4 D#6) 	3/4
+CHORD (-F#3 -A#3 -C#4 -F4 C#6) 	1/2
+CHORD (-F#3 -A#3 -C#4 -F4 F6) 	1/2
+
+; ----------- measure 60 --- beat 36 --- time signature 4/4
+
+CHORD (G#3 C#4 D#4 G#4 G#6) 	4 e68 measure60

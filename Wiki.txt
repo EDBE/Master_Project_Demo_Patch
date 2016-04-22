@@ -1,0 +1,17 @@
+Attributes:
+
+distmeter has a value of [0,1] where the default 0 provides distances in millimeters and a value of 1 provides distances in meters
+position_confidence_filter has a value of [0.0 - 1.0]. Any OSC data having a position confidence greater than or equal to this filter will be output. Note that both confidence filters must pass before output.
+orient_confidence_filter has a value of [0.0 - 1.0]. Any OSC data having a orientation confidence greater than or equal to this filter will be output. Note that both confidence filters must pass before output.
+output_skeleton_orientation has a value of [0, 1]. 0 is the default and means to not output orientation data. 1 means to output orientation data.
+skeleton_smooth_factor has a value of [0.0 - 1.0]. 0.0 is the default and means no smoothing. 1.0 means infinite smoothing. Between 0.0 and 1.0 the behavior is generator dependent.
+output_depthmap has a value of [0,1]. 1 is the default and enables output of depthmap matrices on the depthmap outlet; depth is in millimeters
+output_imagemap has a value of [0,1]. 1 is the default and enables output of imagemap matrices on the imagemap outlet
+output_irmap has a value of [0,1]. 1 is the default and enables output of IRmap matrices on the irmap outlet
+output_usermap has a value of [0,1]. 1 is the default and enables output of user pixel map matrices on the usermap outlet
+output_skeleton has a value of [0,1]. 1 is the default and enables output of skeleton joints on the skeleton outlet
+output_scene_floor has a value of [0,1]. 0 is the default and disables scene floor data being output on the OSC outlet for each bang. 1 enables floor data on the OSC outlet. In both cases, the floor data is available on the scene_floor attribute.
+scene_floor is an array of 6 floats: first 3 are the X, Y, Z coordinates for a point on the plane, the second 3 are the X, Y, Z of a normal vector. These are the same values as are output with the floor OSC message
+skeleton_format has a value of [0..2]. 0 is the default and means the native jit.openni OSC format, 1 is a native format that is friendly to max's route object, 2 is the OSCeleton legacy format
+skeleton_value_type has a value of [0..2]. 0 is the default and outputs native OpenNI values in millimeters (same as OSCeleton -xr), 1 outputs the native OpenNI values with projective coordinates, 2 outputs the OSCeleton's default behavior legacy "normalized" values
+depth_fov is an array of 2 floats representing the depth camera's horizontal and vertical (in that order) field of view in radians
