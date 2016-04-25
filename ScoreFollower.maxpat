@@ -275,6 +275,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -321,9 +322,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 274.0, 244.0, 43.0, 22.0 ],
+									"patching_rect" : [ 274.0, 244.0, 49.0, 22.0 ],
 									"style" : "",
-									"text" : "sel 97"
+									"text" : "sel 102"
 								}
 
 							}
@@ -343,6 +344,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-46",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -372,7 +374,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 401.428558, 305.0, 152.0, 22.0 ],
+									"patching_rect" : [ 401.428558, 317.0, 152.0, 22.0 ],
 									"style" : "",
 									"text" : "if $i1 == 127 then pedalOn"
 								}

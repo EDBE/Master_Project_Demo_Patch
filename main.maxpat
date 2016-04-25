@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-29",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 499.0, 187.0, 321.0, 87.0 ],
+					"style" : "",
+					"text" : "1, turn on path planning\n2, set head to default position\n3, check Kinect and midi keyboard is well connected\n4, initial Kinect\n5, initial score following\n6, go to the perform position"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -301,7 +314,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 132.0, 79.0, 791.0, 752.0 ],
+						"rect" : [ 132.0, 79.0, 810.0, 787.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -331,12 +344,50 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-18",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "NormalPlay2.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 481.0, 33.0, 233.0, 173.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-6",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "ConductorGesture2.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 318.0, 862.0, 255.0, 230.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-22",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 318.0, 1069.0, 150.0, 33.0 ],
+									"patching_rect" : [ 318.0, 1094.0, 150.0, 33.0 ],
 									"style" : "",
 									"text" : "Body Energy Mapping to Robot Gestures"
 								}
@@ -356,7 +407,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 318.0, 1111.0, 155.0, 64.0 ],
+									"patching_rect" : [ 318.0, 1136.0, 155.0, 64.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -395,25 +446,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 33.0, 730.0, 257.0, 88.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-18",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "ConductorGesture.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 318.0, 877.0, 256.0, 185.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -470,25 +502,6 @@
 									"patching_rect" : [ 28.0, 706.0, 202.0, 20.0 ],
 									"style" : "",
 									"text" : "Robot's Head follow Human head"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-6",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "NormalPlay2.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 481.0, 33.0, 310.0, 164.0 ],
-									"viewvisibility" : 1
 								}
 
 							}
@@ -967,7 +980,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 492.0, 79.0, 868.0, 787.0 ],
+						"rect" : [ 492.0, 79.0, 608.0, 787.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1068,7 +1081,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 427.0, 729.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "2"
+									"text" : "0"
 								}
 
 							}
@@ -1142,7 +1155,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 908.0, 191.0, 24.0, 24.0 ],
+									"patching_rect" : [ 908.0, 177.5, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -1531,7 +1544,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 219.0, 487.5, 73.0, 22.0 ],
+									"patching_rect" : [ 316.329559, 457.0, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "fromsymbol"
 								}
@@ -1540,14 +1553,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 431.363647, 474.5, 50.0, 35.0 ],
+									"patching_rect" : [ 431.363647, 474.5, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "start 1024"
+									"text" : "start -1"
 								}
 
 							}
@@ -1609,7 +1621,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 231.469254, 524.0, 139.0, 22.0 ],
+									"patching_rect" : [ 252.0, 515.5, 139.0, 22.0 ],
 									"style" : "",
 									"text" : "s TimelineToNormalPlay"
 								}
@@ -2176,7 +2188,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 219.0, 148.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "e1"
+									"text" : "ee46"
 								}
 
 							}
@@ -3599,6 +3611,15 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -3704,19 +3725,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "NormalPlay2.maxpat",
-				"bootpath" : "~/Dropbox/1_Spring_2016/7100MUSI/WeeklyDemo/Performance_Backup",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "HeadEnergy.maxpat",
-				"bootpath" : "~/Dropbox/1_Spring_2016/7100MUSI/WeeklyDemo/Performance_Backup",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ConductorGesture.maxpat",
 				"bootpath" : "~/Dropbox/1_Spring_2016/7100MUSI/WeeklyDemo/Performance_Backup",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3735,6 +3744,18 @@
 			}
 , 			{
 				"name" : "NewHeadGesture.maxpat",
+				"bootpath" : "~/Dropbox/1_Spring_2016/7100MUSI/WeeklyDemo/Performance_Backup",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ConductorGesture2.maxpat",
+				"bootpath" : "~/Dropbox/1_Spring_2016/7100MUSI/WeeklyDemo/Performance_Backup",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "NormalPlay2.maxpat",
 				"bootpath" : "~/Dropbox/1_Spring_2016/7100MUSI/WeeklyDemo/Performance_Backup",
 				"type" : "JSON",
 				"implicit" : 1
